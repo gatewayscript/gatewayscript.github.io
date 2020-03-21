@@ -1,0 +1,44 @@
+<!--
+
+
+function siteCheck(){
+	var chkval = getCheckedValue(document.forms['siteSearch'].elements['group1']);
+	   if(chkval.indexOf("google") > -1){
+	   	document.forms.siteSearch.action = "http://www.ieee.org/portal/cms_docs/iportals/global/jsp/postgoogle.jsp";
+//	   	document.forms.siteSearch.action = "http://www.google.com/search";
+	   	var searchKeyword = document.forms.siteSearch.qt.value;
+	   	var lowerSearchKeyword = searchKeyword.toLowerCase();
+		if (searchKeyword != null && searchKeyword != '' && lowerSearchKeyword.indexOf('ieee') == -1) {
+			searchKeyword = 'IEEE ' + searchKeyword;
+		}
+		document.forms.siteSearch.q.value = searchKeyword;
+	   } else {
+                document.forms.siteSearch.target="_self";
+	   	document.forms.siteSearch.action="http://odysseus.ieee.org/ieeesearch/query.html";
+	   }
+	   document.forms.siteSearch.submit();
+	   return;
+
+}
+
+
+
+
+function getCheckedValue(radioObj) {
+	if(!radioObj)
+		return "";
+	var radioLength = radioObj.length;
+	if(radioLength == undefined)
+		if(radioObj.checked)
+			return radioObj.value;
+		else
+			return "";
+	for(var i = 0; i < radioLength; i++) {
+		if(radioObj[i].checked) {
+			return radioObj[i].value;
+		}
+	}
+	return "";
+}
+
+//-->

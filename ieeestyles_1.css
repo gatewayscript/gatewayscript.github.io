@@ -1,0 +1,49 @@
+@import url(ieeestyles.css );
+#mainContent H1 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 16px; COLOR: #006699; LINE-HEIGHT: 18px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#mainContent H2 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#introContent {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#introContent TD {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 5px; COLOR: #cc6600; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; MARGIN-BOTTOM: 5px; COLOR: #cc6600; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 5px; COLOR: #cc6600; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 5px; COLOR: #cc6600; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper .moduleText TD {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper .bodycopyblacklargespaced {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper .bodycopyblacklargespaced A {
+	FONT-SIZE: 11px; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper LI {
+	FONT-SIZE: 11px; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper LI A {
+	FONT-SIZE: 11px; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+#moduleWrapper TD {
+	BACKGROUND: white
+}
+.moduleText {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.moduleText A {
+	FONT-SIZE: 11px; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
